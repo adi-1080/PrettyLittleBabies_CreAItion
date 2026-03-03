@@ -1,0 +1,355 @@
+# Eva — The Agentic AI Chief-of-Home-Operations
+
+> *"She doesn't need to do it all — she needs a system that does it intelligently."*
+
+---
+
+## Slide 1: The Hook
+
+**"Behind every successful woman is… 127 unfinished tasks."**
+
+A working mother in urban India manages **40+ invisible tasks daily** — school WhatsApp chaos, medication refills, maid coordination, grocery restocking, calendar collisions, elder care — all while delivering at work.
+
+**Eva is the AI-powered Chief-of-Home-Operations** that autonomously handles the invisible labor of running a household, so she can focus on what matters.
+
+---
+
+## Slide 2: Problem Statement
+
+### The Invisible Load Crisis
+
+| Metric | Reality |
+|--------|---------|
+| 🧠 **Cognitive tasks/day** | 40+ decisions (meal planning, school logistics, health tracking) |
+| ⏱️ **Hours lost/week** | 12-15 hrs on coordination, reminders, vendor calls |
+| 📱 **WhatsApp groups** | 8-12 family/school groups flooding with unstructured chaos |
+| 💸 **Invisible spending** | ₹15,000-25,000/month on household ops, untracked and unshared |
+| ⚖️ **Equity gap** | Women handle 84% of cognitive household labor vs. 16% by partner |
+| 🔥 **Burnout rate** | 67% of working mothers report burnout from dual-role overload |
+
+### The Core Pain Points:
+
+1. **WhatsApp Chaos** — School circulars, family forwards, vendor messages all mixed into 10+ groups with zero structure
+2. **Calendar Collisions** — Work meetings clash with school PTMs, doctor visits overlap with client calls — no auto-detection
+3. **Mental Load is Invisible** — Planning a meal (deciding what to cook) is harder than chopping vegetables, but no one tracks the "thinking work"
+4. **No Delegation Intelligence** — She can't delegate because no one else "sees" what needs doing
+5. **Staff Coordination Hell** — Messaging maids, cooks, drivers in different languages, tracking leave, managing schedules
+6. **The Corporate Penalty** — Taking a sick-child day means manually cancelling 10+ meetings, drafting Slack handovers, emailing stakeholders
+
+**Existing tools solve ONE thing. Eva solves the SYSTEM.**
+
+---
+
+## Slide 3: Introduction — Meet Eva
+
+**Eva** = **Enterprise-grade AI for domestic operations**, designed specifically for the professional Indian woman juggling work + home.
+
+### What Eva IS:
+- An **agentic AI assistant** that doesn't just remind — it **acts autonomously**
+- A **household operating system** that orchestrates tasks, people, and vendors
+- A **cognitive load tracker** that makes invisible labor visible and equitable
+- A **work-life integration layer** that bridges professional and domestic worlds
+
+### What Eva IS NOT:
+- ❌ Not a simple to-do list (Todoist, Google Tasks)
+- ❌ Not a family calendar (Google Calendar, Cozi)
+- ❌ Not a messaging app (WhatsApp, Telegram)
+- ❌ Not a grocery app (BigBasket, Zepto)
+
+**Eva is the intelligent layer that connects ALL of them and acts on your behalf.**
+
+---
+
+## Slide 4: Solution — The Eva Ecosystem
+
+### 🏗️ Architecture: 6-Screen Agentic System
+
+```mermaid
+graph TB
+    A[📲 Smart Onboarding] --> B[🏠 Dashboard]
+    B --> C[📋 Planner]
+    B --> D[📅 Calendar]
+    B --> E[📥 Inbox]
+    B --> F[📊 Insights]
+    
+    G[🤖 Eva AI Agents] --> B
+    G --> C
+    G --> D
+    G --> E
+    G --> F
+    
+    H[External APIs] --> G
+    H -- Zepto/BigBasket --> G
+    H -- Google Calendar --> G
+    H -- WhatsApp --> G
+    H -- Apollo Pharmacy --> G
+```
+
+---
+
+## Slide 5: Feature Deep-Dive — Smart Onboarding
+
+### 🏠 Household Profile Setup (Not Just "Add a Child")
+
+| Feature | Details |
+|---------|---------|
+| **Family Members Modal** | Add husband/partner, children, parents (elderly), siblings, in-laws, others — each with dedicated modal |
+| **Child Age Stages** | 👶 Toddler (0-3) · 🧒 Pre-School (3-5) · 🎒 School-going (5-17) · 🎓 College (17+) — Eva adapts tasks per stage |
+| **School/College Name** | For school-going and college kids — Eva tracks circulars, PTMs, and exam schedules |
+| **Domestic Staff Modal** | Add Maid, Cook, Driver, Nanny, Gardener, Watchman — with phone numbers for WhatsApp coordination |
+| **Remove Members** | Live add/remove with instant UI update — no static data |
+| **Ecosystem Connections** | Gmail (auto-draft emails), Google Calendar (conflict detection), WhatsApp (parse family chaos) |
+| **Budget Autopilot** | Set weekly quick-commerce restock budget — under limit = auto-order, over limit = Eva asks first |
+
+> **Why this matters:** Eva adapts its entire behavior based on household composition. A toddler household gets diaper-tracking and pediatrician reminders. A college-kid household gets hostel fee tracking and exam schedules.
+
+---
+
+## Slide 6: Feature Deep-Dive — Dashboard (Command Center)
+
+### 🏠 The Home Screen That Works For You
+
+| Feature | What It Does | Agentic Intelligence |
+|---------|-------------|---------------------|
+| **Agent Status Bar** | Green dot showing "Eva active — 3 tasks processing, 2 reminders queued, 1 cart ready" | Real-time agent activity feed |
+| **Today at a Glance** | Horizontal swipeable critical cards (Chart Paper, Dad's BP Meds, Grocery Cart) | Each card shows auto-action status (🤖 Cart ready, 💊 Auto-refill, 🛒 Auto-order) |
+| **Protected Focus Time** | Shield icon blocking 4-5 PM — "Eva declined 2 meeting requests for this block ✨" | Auto-declines meeting invites during guarded blocks |
+| **Smart Autopilot Grid** | Rx Tracker (2 refills due) + Cart Ready (₹340 BigBasket order at 10 AM) | Medication tracking + grocery cart auto-merge |
+| **Staff Status Cards** | Sunita (Maid) — On Leave Tomorrow • Ram (Driver) — Arriving 8:30 AM • Lata (Cook) — Meal plan sent ✓ | Each staff member has **Chat** and **Call** buttons |
+| **Staff Chat Modal** | Full chat interface — messages simulated via Eva's WhatsApp agent with delivery confirmation | "Message delivered via WhatsApp ✓" |
+| **Voice/Call Modal** | Click-to-call with WhatsApp integration, voice note option | "Connecting via WhatsApp..." |
+| **Today's Flow Timeline** | Visual timeline with color-coded events (Work=purple, School=pink, Me=green, Home=yellow) | Each event shows agent reasoning note |
+| **Add Task Modal** | FAB "+" button opens full modal: title, time, category chips (School/Home/Office/Groceries/Health/Logistics) | Tasks added to live timeline instantly |
+| **Add Staff Modal** | Add new staff with name, role (Maid/Cook/Driver/Nanny/Gardener/Watchman), phone | Staff appears with chat/call buttons immediately |
+| **Remove Items** | X button on timeline items and staff cards — remove anything live | Dynamic state management |
+| **Motivational Quotes** | Rotating quotes: *"She believed she could, so she automated the rest."* | Emotional connection layer |
+
+---
+
+## Slide 7: Feature Deep-Dive — Planner (Kanban Board)
+
+### 📋 Mobile-First Task Management
+
+| Feature | Details |
+|---------|---------|
+| **Dual View Mode** | Toggle between **List View** and **Kanban Board** with animated switch |
+| **Mobile Accordion Kanban** | On phones (<600px), columns stack vertically as expandable/collapsible accordion sections — no horizontal cut-off |
+| **Desktop Horizontal Kanban** | On wider screens, traditional horizontal scrollable columns |
+| **4 Kanban Columns** | Backlog → This Week → Today → Done — full task lifecycle |
+| **Task Cards** | Category tag (OFFICE/HOME/SCHOOL), effort weight (🪶 Light / ⚖️ Medium / 🪨 Heavy), assignee, due date |
+| **Agent Cognitive Notes** | Each task shows Eva's reasoning: _"Revenue slides + projections — need Finance inputs"_ |
+| **"Move to" Buttons** | One-tap progression: Move to This Week → Move to Today → Move to Done |
+| **Filter Pills** | All Tasks · Home & Family · Workplace — instant filter toggle |
+| **Workplace Tasks** | Purple briefcase badge on work tasks: "Prepare Q3 investor deck", "Submit sprint review slides", "Review PR #438" |
+| **Cognitive Load Summary** | Live stats bar: Your Load (31) · Delegated (7) · Work Tasks (6) · Total (42) |
+| **Smart Rebalancer CTA** | "Q3 Pitch Week detected — Eva shifted 3 home tasks to your partner and auto-handled 2 via vendors" |
+| **Add Task Modal** | Full modal with: Title, Category chips (7 options), Column selector (Backlog/This Week/Today/Done), Effort level, Assignee (You/Husband/Eva Auto) |
+| **Delete Tasks** | X button on every task card — remove with live count update |
+| **Delegation Indicators** | Green ⚡ for auto-handled tasks, 👤 for personal tasks |
+
+---
+
+## Slide 8: Feature Deep-Dive — Calendar (Collision Intelligence)
+
+### 📅 The Calendar That Thinks Ahead
+
+| Feature | Details |
+|---------|---------|
+| **Full Month Grid** | Interactive calendar with color-coded event dots per day |
+| **Event Type Colors** | Work (dark purple) · School (warm peach) · Me Time (mint green) · Family (soft pink) |
+| **Legend** | Bottom legend mapping colors to event types |
+| **Collision Detection** | 🔴 Red badge "1 collision" in header when schedule conflicts detected |
+| **Level 1 Collision UI** | Red-highlighted event card: _"Level 1 Collision with 1:1 with Manager (11:00 AM)"_ |
+| **Draft Reschedule Email** | Click "Draft Email" → full email template appears: Subject line, body, sign-off — ready to send via Gmail |
+| **Call Sitter Modal** | Click "Call Sitter" → WhatsApp call interface with Priya (Backup Sitter) +91 number |
+| **Agent Reasoning Notes** | Each event shows Eva's logic: _"Eva postponed from 11 AM to resolve collision with PTM"_, _"Husband GPS shows him near studio at 5:15 PM"_ |
+| **Filter Chips** | All · School · Me Time · Family · Work — filter today's events by type |
+| **Add Event Modal** | Title, Time input, Type selector with color dots — add to today's schedule |
+| **Delete Events** | X button on every event card |
+| **Protected Time Blocks** | ☕ "Protected Focus Time" with mint green highlight — _"Eva guarded this block. 2 meeting invites auto-declined."_ |
+
+---
+
+## Slide 9: Feature Deep-Dive — Inbox (Chaos Parser)
+
+### 📥 From WhatsApp Chaos → Structured Actions
+
+| Feature | Details |
+|---------|---------|
+| **Multi-Source Parsing** | WhatsApp messages, Voice Notes, School Documents — all parsed into structured actions |
+| **Tab Filtering** | All · WhatsApp · Voice Notes · Documents — categorized inbox |
+| **AI-Parsed Actions** | Every raw message gets an Eva-generated actionable suggestion |
+| **Accept/Reject Buttons** | Functional accept (adds to planner) and reject (removes from inbox) with live state update |
+| **Merge Detection** | Eva detects duplicate requests: _"Eva merged duplicate 'milk' requests. Auto-adding to Zepto cart."_ |
+| **Voice Transcription** | Voice notes transcribed and converted: _"Kitchen sink leaking"_ → **Action: "Call Raju Bhai (plumber)"** |
+| **Document Extraction** | School circular PDF → extracts 2 events (Republic Day + Fancy Dress) → "Add Both to Calendar" |
+| **Flight Itinerary Parsing** | Forwarded flight email → structured: Mumbai→Delhi, March 15, IndiGo, Terminal 2 → auto-add calendar + cab booking |
+| **Medication Alerts** | _"Dad's Aztor-20 running low"_ → auto-refill via Apollo within pre-approved ₹800 budget |
+| **Agent Reasoning Notes** | Every card shows WHY Eva made that decision — full transparency |
+| **Agent Status Indicator** | "Eva — Orchestrating" badge in header with green active dot |
+| **Accepted Items** | Accepted items move to a separate "Accepted" section with green checkmark |
+
+---
+
+## Slide 10: Feature Deep-Dive — Insights (Mental Load Dashboard)
+
+### 📊 Making Invisible Labor Visible
+
+| Feature | Details |
+|---------|---------|
+| **Today's Work Pulse** | 4-card grid: Meetings today (4) · Focus blocks (2 hrs) · PRs pending (3) · Slack unread (12) |
+| **Cognitive Load Gauge** | Circular SVG gauge showing 84% load — color-coded (green/yellow/red) |
+| **Decision-Weighted Scoring** | _"Planning a meal (3pts) counts more than chopping vegetables (1pt)"_ — tracks thinking work, not just doing work |
+| **Load Stats** | 42 points/week · 6 auto-handled · ↑12% vs last week |
+| **Auto-Rebalance Nudge** | Red alert: _"Load spike detected. Eva is auto-shifting 3 non-urgent tasks to your partner"_ |
+| **Household Equity Split** | Horizontal bar chart: Meal Planning (90% you), School Logistics (75%), Grocery (60%), Homework Help (45%) |
+| **Weekly Task Distribution** | Bar chart Mon-Sun with improved height and spacing — no label overlap |
+| **Invisible Expense Tracker** | ₹19,080 total: Groceries ₹4,280, School ₹1,650, Maid ₹6,000, Driver ₹3,200, Medicines ₹2,100, Quick-commerce ₹1,850 |
+| **Splitwise Settlement Modal** | Click "Generate Splitwise Settlement" → shows Your share (84%), Partner's share (16%), Fair 50-50 split, **Partner owes you ₹6,487** → "Send Settlement to Partner" |
+| **Weekly Reflections** | 5 reflection cards: 12 hrs saved, 23 tasks completed, 8 work tasks shipped, 4 hrs me-time protected, 6 tasks auto-delegated |
+| **Corporate Firewall** | Emergency mode button with dashed red border |
+| **Emergency Mode Modal** | Full checklist: Cancel 48hrs meetings, Draft Slack handover, Send OOO email, Notify school, Alert family, Message staff → "Deploy Now" changes button to green "Firewall Active ✓" |
+
+---
+
+## Slide 11: USPs — Why Eva Stands Apart
+
+### 🏆 Unique Selling Propositions
+
+| # | USP | Existing Apps | Eva |
+|---|-----|--------------|-----|
+| 1 | **Agentic AI** | Passive reminders, you still do everything | Eva **acts autonomously** — orders groceries, drafts emails, messages staff |
+| 2 | **Cognitive Load Scoring** | No app tracks "thinking work" | Decision-weighted scoring: planning > execution. Your mental load is now a number. |
+| 3 | **Work-Life Integration** | Separate work tools (Slack) + home tools (WhatsApp) | Single dashboard spanning both worlds — sprint planning next to school PTM |
+| 4 | **Household Equity Tracking** | No visibility into who does what | Bar chart proof: "You did 84% of cognitive tasks." Send Splitwise settlement. |
+| 5 | **WhatsApp Chaos Parser** | You read every message manually | Eva reads 10+ groups, extracts actions, merges duplicates, creates tasks |
+| 6 | **Calendar Collision AI** | You discover conflicts in the meeting | Eva detects conflicts hours ahead, drafts reschedule emails, calls backup sitters |
+| 7 | **Staff Orchestration** | You message staff individually in 3 languages | Eva messages maid in Marathi, cook in Hindi, driver in English — from one dashboard |
+| 8 | **Corporate Firewall** | You manually cancel 10 meetings for a sick child | One tap: cancel meetings + Slack handover + OOO email + school notify + alert family |
+| 9 | **Protected Me-Time** | You never protect personal time | Eva auto-declines meeting invites during guarded focus blocks |
+| 10 | **Invisible Finance** | Household spending is untracked | Every rupee tracked, categorized, and fairly split between partners |
+
+---
+
+## Slide 12: Feasibility, Security & Tech Stack
+
+### 🛠️ Technical Implementation
+
+| Layer | Technology |
+|-------|-----------|
+| **Frontend** | React Native (Expo) — cross-platform iOS/Android/Web |
+| **Design System** | Custom theme with Quicksand + Fustat fonts, pastel color palette, glassmorphism cards |
+| **State Management** | React useState hooks — fully reactive UI |
+| **Navigation** | React Navigation with Bottom Tabs + Stack |
+| **UI Components** | Custom [AppModal](file:///d:/Tanay%20IMP/Hackathons/CREATION/PrettyLittleBabies_CreAItion/frontend/src/components/ui/AppModal.js#16-66), [GlassCard](file:///d:/Tanay%20IMP/Hackathons/CREATION/PrettyLittleBabies_CreAItion/frontend/src/components/ui/GlassCard.js#5-19), [AppButton](file:///d:/Tanay%20IMP/Hackathons/CREATION/PrettyLittleBabies_CreAItion/frontend/src/components/ui/AppButton.js#6-48) component library |
+| **Icons** | Feather Icons (consistent, lightweight) |
+| **Charts** | Custom SVG gauge + native bar charts (no heavy charting library) |
+
+### 🔗 External API Integrations (Future Scope)
+
+| API | Purpose | Status |
+|-----|---------|--------|
+| **Google Calendar API** | Sync events, detect collisions, auto-block focus time | 🟡 Planned |
+| **Gmail API** | Auto-draft reschedule emails, parse forwarded itineraries | 🟡 Planned |
+| **WhatsApp Business API** | Parse group messages, send staff messages in regional languages | 🟡 Planned |
+| **Zepto / BigBasket API** | Auto-add items to cart, price comparison, scheduled delivery | 🟡 Planned |
+| **Apollo Pharmacy / 1mg API** | Medication refill tracking, auto-reorder prescriptions | 🟡 Planned |
+| **Swiggy / Zomato API** | Meal planning integration, auto-order based on cook's leave | 🟡 Planned |
+| **Google Maps API** | GPS-based family tracking (husband near school for pickup) | 🟡 Planned |
+| **Twilio / MSG91** | OTP verification, voice notes, call routing | 🟡 Planned |
+| **Razorpay / UPI** | Auto-pay staff salaries, vendor bills, utility payments | 🟡 Planned |
+| **Google Translate API** | Multi-language staff messaging (Hindi, Marathi, Tamil, etc.) | 🟡 Planned |
+| **OpenAI / Gemini API** | NLP for WhatsApp parsing, voice transcription, task classification | 🟡 Planned |
+| **Slack API** | Work status sync, auto-draft handover notes, OOO management | 🟡 Planned |
+
+### 🔒 Security Considerations
+
+| Area | Approach |
+|------|----------|
+| **Data Privacy** | End-to-end encryption for family data, staff contacts, financial information |
+| **Authentication** | OTP-based phone verification (no passwords to remember) |
+| **Budget Guardrails** | Auto-orders only within pre-approved budget thresholds |
+| **Agent Transparency** | Every autonomous action shows reasoning — user can accept/reject |
+| **GDPR/DPDP Compliance** | Minimal data collection, user-controlled deletion, consent-first approach |
+| **Staff Data Protection** | Staff phone numbers encrypted, used only for authorized communication |
+
+---
+
+## Slide 13: Why Eva? — The Impact
+
+### 📈 Projected Impact Metrics
+
+| Before Eva | After Eva |
+|-----------|----------|
+| 40+ decisions/day mentally tracked | **Automated to 8-10 decisions/day** |
+| 12-15 hrs/week on coordination | **Saved 12 hrs/week** (Eva handles coordination) |
+| ₹15-25K/month untracked spending | **Every rupee tracked and fairly split** |
+| 84% cognitive load on one person | **Equity dashboard makes imbalance visible** |
+| 3 sick-leave meetings to cancel manually | **One-tap Corporate Firewall handles everything** |
+| Zero protected personal time | **4+ hrs/week of guarded me-time** |
+
+### 🎯 Target Audience
+
+| Segment | Size | Need |
+|---------|------|------|
+| **Working Mothers (25-45)** | 30M+ in urban India | Dual-role burnout, invisible labor |
+| **Nuclear Families** | 50M+ households | No extended family support system |
+| **Dual-Income Couples** | 20M+ | Equitable task distribution needed |
+| **Families with Elderly** | 15M+ | Medication tracking, care coordination |
+| **Families with Domestic Staff** | 25M+ | Staff coordination across languages |
+
+### 💡 Why NOW?
+
+1. **AI Maturity** — LLMs can now parse WhatsApp messages, draft emails, and make contextual decisions
+2. **India's Quick-Commerce Boom** — Zepto, BigBasket, Blinkit APIs make auto-ordering feasible
+3. **Remote/Hybrid Work** — Calendar collisions between work & home are at an all-time high
+4. **Mental Health Awareness** — Cognitive load and burnout are now recognized workplace issues
+5. **UPI Infrastructure** — Automated payments for staff salaries and vendor bills at zero cost
+
+---
+
+## Slide 14: Business Model (Future)
+
+| Revenue Stream | Model |
+|---------------|-------|
+| **Freemium** | Basic task management free; AI agent features premium (₹299/month) |
+| **Quick-Commerce Affiliate** | Commission on auto-orders via Zepto/BigBasket/Swiggy |
+| **Pharmacy Affiliate** | Commission on medication auto-refills via 1mg/Apollo |
+| **Enterprise (B2B)** | Corporate wellness benefit — companies buy Eva for working-parent employees |
+| **Staff Payroll** | Small fee for automated salary disbursement via UPI |
+
+---
+
+## Slide 15: Closing — The Eva Promise
+
+> *"The most powerful woman in the room isn't the one doing everything — she's the one whose system handles the rest."*
+
+### Eva doesn't replace the mother. Eva replaces the chaos.
+
+**What we built:**
+- ✅ 6 fully interactive screens with zero static buttons
+- ✅ 11 functional modals (add task, add staff, add family, add event, chat, call, reschedule email, splitwise settlement, emergency firewall, voice note, task details)
+- ✅ Agentic AI reasoning visible on every card
+- ✅ Mobile-first responsive design
+- ✅ Work-life integration across every screen
+- ✅ Cognitive load scoring and household equity tracking
+- ✅ Beautiful pastel design system with glassmorphism
+- ✅ Complete onboarding flow with household profiling
+
+**Eva turns invisible labor into visible, trackable, delegatable, and automatable operations.**
+
+---
+
+## Appendix: Screen-by-Screen Feature Summary
+
+| Screen | Key Features | Modals |
+|--------|-------------|--------|
+| **Login** | Phone + OTP verification, gradient design | — |
+| **Onboarding** | 3-step flow: Household → Connections → Preferences | Add Family Member, Add Staff |
+| **Dashboard** | Agent bar, critical cards, me-time, staff, timeline, FAB | Add Task, Add Staff, Chat, Call/Voice |
+| **Planner** | Kanban/List toggle, filter pills, cognitive load bar, move tasks | Add Task |
+| **Calendar** | Month grid, event dots, collision detection, filter chips | Add Event, Draft Reschedule, Call Sitter |
+| **Inbox** | Multi-source parsing, accept/reject, merge detection | — (inline actions) |
+| **Insights** | Work pulse, gauge, equity chart, bar chart, finance, reflections | Splitwise Settlement, Emergency Firewall |
+
+**Total Interactive Elements: 40+ buttons, 11 modals, 6 screens, 0 static elements.**
