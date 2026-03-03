@@ -1,0 +1,16 @@
+/home/adi/Desktop/wsevaa/PrettyLittleBabies_CreAItion/backend/.venv/lib64/python3.14/site-packages/langchain_core/_api/deprecation.py:25: UserWarning: Core Pydantic V1 functionality isn't compatible with Python 3.14 or greater.
+  from pydantic.v1.fields import FieldInfo as FieldInfoV1
+Traceback (most recent call last):
+  File "/home/adi/Desktop/wsevaa/PrettyLittleBabies_CreAItion/backend/main.py", line 13, in <module>
+    from config import settings, create_tables, get_db_session
+  File "/home/adi/Desktop/wsevaa/PrettyLittleBabies_CreAItion/backend/config.py", line 57, in <module>
+    engine = create_engine(settings.database_url, connect_args={"check_same_thread": False})
+  File "<string>", line 2, in create_engine
+  File "/home/adi/Desktop/wsevaa/PrettyLittleBabies_CreAItion/backend/.venv/lib64/python3.14/site-packages/sqlalchemy/util/deprecations.py", line 281, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+  File "/home/adi/Desktop/wsevaa/PrettyLittleBabies_CreAItion/backend/.venv/lib64/python3.14/site-packages/sqlalchemy/engine/create.py", line 617, in create_engine
+    dbapi = dbapi_meth(**dbapi_args)
+  File "/home/adi/Desktop/wsevaa/PrettyLittleBabies_CreAItion/backend/.venv/lib64/python3.14/site-packages/sqlalchemy/dialects/sqlite/aiosqlite.py", line 449, in import_dbapi
+    __import__("aiosqlite"), __import__("sqlite3")
+    ~~~~~~~~~~^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'aiosqlite'

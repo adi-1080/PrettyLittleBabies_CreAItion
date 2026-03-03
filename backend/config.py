@@ -18,6 +18,10 @@ class Settings(BaseSettings):
     # --- Groq ---
     groq_api_key: str = ""
 
+    # --- Twilio ---
+    twilio_account_sid: str = ""
+    twilio_auth_token: str = ""
+
     # --- Model ---
     model_name: str = "llama-3.3-70b-versatile"
     model_temperature: float = 0.7
